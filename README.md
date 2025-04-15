@@ -4,6 +4,6 @@ cover: .gitbook/assets/RTXBackground.png
 coverY: 0
 ---
 
-# LightslicerGPBot
+# LightslicerGPBotV2
 
-This page will include the official Source Code for the LightslicerGPBot and all the commands, alongside how to use them.
+This page will include the official Source Code for the LightslicerGPBotv2 and all the commands, alongside how to use them.
