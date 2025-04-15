@@ -19,16 +19,16 @@ module.exports = [
       $thumbnail[https://my.mcpedl.com/storage/texturepacks/3327/images/kellys-minecraft-vanilla-rtx-conversion-pack-clear-water-and-another-addon_8.png]
       $image[https://images.nvidia.com/geforce/news/minecraft-rtx-february-2021-player-worlds-roundup/Kelly-3.jpg;ImageNameGoesHere]
   
-      $addButton[1;label;1;1;false;]
-      $addButton[1;label;2;2;false;]
-      $addButton[1;label;3;3;false;]
-      $addButton[1;label;4;4;false;]
-      $addButton[1;label;5;https://www.example.com;false;]
-      $addButton[2;label;1;6;true;]
-      $addButton[2;label;2;7;true;]
-      $addButton[2;label;3;8;true;]
-      $addButton[2;label;4;9;true;]
-      $addButton[2;label;5;https://www.example.com;true;]
+      $addButton[1;label;primary;1;false;]
+      $addButton[1;label;secondary;2;false;]
+      $addButton[1;label;success;3;false;]
+      $addButton[1;label;danger;4;false;]
+      $addButton[1;label;link;https://www.example.com;false;]
+      $addButton[2;label;primary;6;true;]
+      $addButton[2;label;secondary;7;true;]
+      $addButton[2;label;success;8;true;]
+      $addButton[2;label;danger;9;true;]
+      $addButton[2;label;link;https://www.example.com;true;]
       `, //bottom one is $image, top right one is $thumbnail, top left is $author
   },
 ];

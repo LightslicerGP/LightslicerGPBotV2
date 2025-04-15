@@ -64,7 +64,7 @@ const bot = new AoiClient({
     "onBanAdd",
     "onBanRemove",
     "onVoiceStateUpdate",
-    "onWebhookUpdate",
+    // "onWebhookUpdate",
     "onJoin",
     "onLeave",
     "onMemberUpdate",
@@ -74,7 +74,7 @@ const bot = new AoiClient({
     "onTypingStart",
     "onUserUpdate",
     "onInteractionCreate",
-    "onApplicationCmdPermsUpdate",
+    // "onApplicationCmdPermsUpdate",
     "onVariableCreate",
     "onVariableDelete",
     "onVariableUpdate",
@@ -86,7 +86,7 @@ const bot = new AoiClient({
   ],
   database: {
     type: "aoi.db",
-    db: require("aoi.db"),
+    db: require("@akarui/aoi.db"),
     tables: ["main", "Bank", "People"],
     path: "./database/",
     extraOptions: {
@@ -94,6 +94,7 @@ const bot = new AoiClient({
     },
   },
   guildOnly: false,
+  respondToBots: true,
 });
 
 new aoijs.LoadCommands(bot).load(bot.cmd, "./Commands/", false);
@@ -140,22 +141,10 @@ bot.command(
     code: `
     $clientTyping
     $reply[$messageID;true]
-
-
-
-    $color[1;#80bfff]
-    $title[1;
-      This ID's Username is $userTag[$message]
-    ]
-  
-  
-  
-    $onlyIf[$isNumber[$message]==true;{"embeds": "
-        {newEmbed: 
-          {title:This Username's ID is $findUser[$message;false]}
-          {color:#80bfff}}",
-        "reply": {"messageReference": "$messageID"}
-    }]
+    
+    $sendMessage[Hello!]
+    $wait[5s]
+    $sendMessage[Oh, what's that?]
     `, //https://discord.com/channels/773352845738115102/1002206443979673731/1013860375348924476
     // $writeFile[temp.txt;this is inside the file inside the host] $createFile[this is inside the file in the message;temp.txt]
   },
@@ -177,6 +166,7 @@ $getObject\`\`\`
 
 bot.variables(
   {
+    DisboardChannel: "Number_here",
     Bio: `(insert bio here)`,
     Interests: `(insert interests here)`,
     Birthday: `(insert birthday here)`,

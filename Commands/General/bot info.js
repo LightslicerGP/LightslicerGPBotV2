@@ -32,7 +32,7 @@ module.exports = [
       $addField[Server Count;$serverCount;true]
       $addField[User Count;$allMembersCount;true]
       $addField[Bot Creation Date/Time;$creationDate[698733140939898957;date] (yea I know, 3 am lmao);true]
-      $addField[Bot Owner;[$username[$botOwnerID]](https://youtube.com/c/LightslicerGP/);true]
+      $addField[Bot Owner;[$username[$clientOwnerIDs]](https://youtube.com/c/LightslicerGP/);true]
       `,
   },
 ];

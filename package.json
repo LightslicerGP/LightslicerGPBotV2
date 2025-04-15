@@ -10,8 +10,10 @@
   "author": "LightslicerGP on Youtube",
   "license": "ISC",
   "dependencies": {
+    "@akarui/aoi.db": "^2.3.3",
     "@akarui/aoi.panel": "^0.0.4",
-    "aoi.js": "^6.2.6",
+    "aoi.db": "^1.1.1",
+    "aoi.js": "^6.7.1",
     "dbdjs.db": "^2.0.2",
     "discord.js": "^14.11.0",
     "express": "^4.18.2",

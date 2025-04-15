@@ -1,5 +1,5 @@
 module.exports = [
-  //broken
+  // broken
   {
     name: "bal gamble",
     aliases: ["gamble"],

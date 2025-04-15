@@ -1,1 +1,11 @@
-{"Money_586225258269245538":{"value":10,"type":"number","key":"Money_586225258269245538","ttl":0},"Money_159985870458322944":{"value":69,"type":"number","key":"Money_159985870458322944","ttl":0}}
+{ "Money_586225258269245538": { "value" :10,
+"type" :"number",
+"key" :"Money_586225258269245538",
+"ttl" :0 },
+"Money_159985870458322944": { "value" :69,
+"type" :"number",
+"key" :"Money_159985870458322944",
+"ttl" :0 },
+"Money_762007539197411350": { "value" :10,
+"type" :"number",
+"key" :"Money_762007539197411350" } }
