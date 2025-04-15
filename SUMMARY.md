@@ -1,6 +1,6 @@
 # Table of contents
 
-* [LightslicerGPBotv2](README.md)
+* [LightslicerGPBotV2](README.md)
 * [Commands](commands/README.md)
   * [💵 Economy](commands/economy/README.md)
     * [#bal gamble](commands/economy/bal-gamble.md)
