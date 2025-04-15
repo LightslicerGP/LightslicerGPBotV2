@@ -1,6 +1,6 @@
 # Table of contents
 
-* [LightslicerGPBot](README.md)
+* [LightslicerGPBotv2](README.md)
 * [Commands](commands/README.md)
   * [💵 Economy](commands/economy/README.md)
     * [#bal gamble](commands/economy/bal-gamble.md)
@@ -12,7 +12,7 @@
     * [#daily](commands/economy/daily.md)
     * [#work](commands/economy/work.md)
   * [🎮 Fun](commands/fun.md)
-  * [⚙ General](commands/general/README.md)
+  * [⚙️ General](commands/general/README.md)
     * [#banned](commands/general/banned.md)
     * [#bot info](commands/general/bot-info.md)
     * [#calc](commands/general/calc.md)
